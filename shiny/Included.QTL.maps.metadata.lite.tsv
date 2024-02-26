@@ -1,0 +1,357 @@
+Source	Map	QTL_type	Molecular_Phenotype_Quantification	Sample_Size	Tissue|Cell_type	Predominant_Ancestry	Technology	CL|UBERON|EFO	Tissue|Cell_Tier1	Tissue|Cell_Tier2	Tissue|Cell_Tier3	Predominant_Cell	Stimulus	PMID/doi	OT_right_study	OT_right_bio_feature
+dePaivaLopes_2022	MFG_sQTLs	cis-sQTLs	leafcutter	77	cell	EUR	bulk-RNASeq	CL_0000129	microglia (medial frontal gyrus)	brain	microglia	immune	naive	34992268	NA	NA
+dePaivaLopes_2022	STG_sQTLs	cis-sQTLs	leafcutter	63	cell	EUR	bulk-RNASeq	CL_0000129	microglia (superior temporal gyrus)	brain	microglia	immune	naive	34992268	NA	NA
+dePaivaLopes_2022	SVZ_sQTLs	cis-sQTLs	leafcutter	55	cell	EUR	bulk-RNASeq	CL_0000129	microglia (subventricular zone )	brain	microglia	immune	naive	34992268	NA	NA
+dePaivaLopes_2022	THA_sQTLs	cis-sQTLs	leafcutter	60	cell	EUR	bulk-RNASeq	CL_0000129	microglia (thalamus)	brain	microglia	immune	naive	34992268	NA	NA
+dePaivaLopes_2022	MFG_eQTLs	cis-eQTL	gene	77	cell	EUR	bulk-RNASeq	CL_0000129	microglia (medial frontal gyrus)	brain	microglia	immune	naive	34992268	NA	NA
+dePaivaLopes_2022	STG_eQTLs	cis-eQTL	gene	63	cell	EUR	bulk-RNASeq	CL_0000129	microglia (superior temporal gyrus)	brain	microglia	immune	naive	34992268	NA	NA
+dePaivaLopes_2022	SVZ_eQTLs	cis-eQTL	gene	55	cell	EUR	bulk-RNASeq	CL_0000129	microglia (subventricular zone )	brain	microglia	immune	naive	34992268	NA	NA
+dePaivaLopes_2022	THA_eQTLs	cis-eQTL	gene	60	cell	EUR	bulk-RNASeq	CL_0000129	microglia (thalamus)	brain	microglia	immune	naive	34992268	NA	NA
+eQTL_Catalogue	Alasoo_2018_tx_macrophage_IFNg	cis-sQTL	transcript	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	IFNg	29379200	Alasoo_2018	NA
+eQTL_Catalogue	Alasoo_2018_tx_macrophage_IFNg+Salmonella	cis-sQTL	transcript	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	IFNg+Salmonella	29379200	Alasoo_2018	NA
+eQTL_Catalogue	Alasoo_2018_tx_macrophage_naive	cis-sQTL	transcript	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	naive	29379200	Alasoo_2018	NA
+eQTL_Catalogue	Alasoo_2018_tx_macrophage_Salmonella	cis-sQTL	transcript	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	Salmonella	29379200	Alasoo_2018	NA
+eQTL_Catalogue	BLUEPRINT_tx_monocyte	cis-sQTL	transcript	191	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	myeloid	immune	naive	27863251	BLUEPRINT	NA
+eQTL_Catalogue	BLUEPRINT_tx_neutrophil	cis-sQTL	transcript	196	cell	EUR	bulk-RNASeq	CL_0000775	neutrophil	blood	myeloid	immune	naive	27863251	BLUEPRINT	NA
+eQTL_Catalogue	BLUEPRINT_tx_T-cell	cis-sQTL	transcript	167	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	lymphoid	immune	naive	27863251	BLUEPRINT	NA
+eQTL_Catalogue	Bossini-Castillo_2019_tx_Treg_naive	cis-sQTL	transcript	119	cell	EUR	bulk-RNASeq	CL_0002677	Treg memory	blood	lymphoid	immune	naive	35591976	?	NA
+eQTL_Catalogue	Braineac2_tx_putamen	cis-sQTL	transcript	102	tissue	EUR	bulk-RNASeq	UBERON_0001874	brain (putamen)	brain	heterogeneous	neural	naive	32098967	Braineac2	NA
+eQTL_Catalogue	Braineac2_tx_substantia_nigra	cis-sQTL	transcript	65	tissue	EUR	bulk-RNASeq	UBERON_0002038	brain (substantia nigra)	brain	heterogeneous	neural	naive	32098967	Braineac2	NA
+eQTL_Catalogue	BrainSeq_tx_brain	cis-sQTL	transcript	479	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	30050107	BrainSeq	NA
+eQTL_Catalogue	CAP_tx_LCL_naive	cis-sQTL	transcript	148	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	32787775	CAP	NA
+eQTL_Catalogue	CAP_tx_LCL_statin	cis-sQTL	transcript	148	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	statin	32787775	CAP	NA
+eQTL_Catalogue	CommonMind_tx_DLPFC_naive	cis-sQTL	transcript	586	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	blood	heterogeneous	neural	naive	31551426	CommonMind	NA
+eQTL_Catalogue	FUSION_tx_adipose_naive	cis-sQTL	transcript	271	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose (subcutaneous)	adipose	heterogeneous	connective	naive	31076557	FUSION	NA
+eQTL_Catalogue	FUSION_tx_muscle_naive	cis-sQTL	transcript	288	tissue	EUR	bulk-RNASeq	UBERON_0001134	muscle (skeletal)	muscle	heterogeneous	stromal	naive	31076557	FUSION	NA
+eQTL_Catalogue	GENCORD_tx_fibroblast	cis-sQTL	transcript	186	cell	EUR	bulk-RNASeq	CL_0000057	fibroblast	muscle	fibroblast	stromal	naive	23755361	GENCORD	NA
+eQTL_Catalogue	GENCORD_tx_LCL	cis-sQTL	transcript	190	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	23755361	GENCORD	NA
+eQTL_Catalogue	GENCORD_tx_T-cell	cis-sQTL	transcript	184	cell	EUR	bulk-RNASeq	CL_0000084	T cell	blood	T-cell	immune	naive	23755361	GENCORD	NA
+eQTL_Catalogue	GEUVADIS_tx_LCL	cis-sQTL	transcript	445	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	24037378	GEUVADIS	NA
+eQTL_Catalogue	GTEx_tx_adipose_subcutaneous	cis-sQTL	transcript	581	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose (subcutaneous)	adipose	heterogeneous	connective	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_adipose_visceral	cis-sQTL	transcript	469	tissue	EUR	bulk-RNASeq	UBERON_0010414	adipose (visceral)	adipose	heterogeneous	connective	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_adrenal_gland	cis-sQTL	transcript	233	tissue	EUR	bulk-RNASeq	UBERON_0002369	adrenal gland	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_artery_aorta	cis-sQTL	transcript	387	tissue	EUR	bulk-RNASeq	UBERON_0001496	artery (aorta)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_artery_coronary	cis-sQTL	transcript	213	tissue	EUR	bulk-RNASeq	UBERON_0001621	artery (coronary)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_artery_tibial	cis-sQTL	transcript	584	tissue	EUR	bulk-RNASeq	UBERON_0007610	artery (tibial)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_blood	cis-sQTL	transcript	670	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_amygdala	cis-sQTL	transcript	129	tissue	EUR	bulk-RNASeq	UBERON_0001876	brain (amygdala)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_anterior_cingulate_cortex	cis-sQTL	transcript	147	tissue	EUR	bulk-RNASeq	UBERON_0009835	brain (anterior cingulate cortex)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_caudate	cis-sQTL	transcript	194	tissue	EUR	bulk-RNASeq	UBERON_0001873	brain (caudate)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_cerebellar_hemisphere	cis-sQTL	transcript	175	tissue	EUR	bulk-RNASeq	UBERON_0002037	brain (cerebellum)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_cerebellum	cis-sQTL	transcript	209	tissue	EUR	bulk-RNASeq	UBERON_0002037	brain (cerebellum)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_cortex	cis-sQTL	transcript	205	tissue	EUR	bulk-RNASeq	UBERON_0001870	brain (cortex)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_frontal_cortex	cis-sQTL	transcript	175	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_hippocampus	cis-sQTL	transcript	165	tissue	EUR	bulk-RNASeq	UBERON_0001954	brain (hippocampus)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_hypothalamus	cis-sQTL	transcript	170	tissue	EUR	bulk-RNASeq	UBERON_0001898	brain (hypothalamus)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_nucleus_accumbens	cis-sQTL	transcript	202	tissue	EUR	bulk-RNASeq	UBERON_0001882	brain (nucleus accumbens)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_putamen	cis-sQTL	transcript	170	tissue	EUR	bulk-RNASeq	UBERON_0001874	brain (putamen)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_spinal_cord	cis-sQTL	transcript	126	tissue	EUR	bulk-RNASeq	UBERON_0006469	brain (spinal cord)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_brain_substantia_nigra	cis-sQTL	transcript	114	tissue	EUR	bulk-RNASeq	UBERON_0002038	brain (substantia nigra)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_breast	cis-sQTL	transcript	394	tissue	EUR	bulk-RNASeq	UBERON_0008367	breast (mammary)	breast	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_colon_sigmoid	cis-sQTL	transcript	318	tissue	EUR	bulk-RNASeq	UBERON_0001159	sigmoid colon	colon	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_colon_transverse	cis-sQTL	transcript	368	tissue	EUR	bulk-RNASeq	UBERON_0001157	transverse colon	colon	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_esophagus_gej	cis-sQTL	transcript	330	tissue	EUR	bulk-RNASeq	UBERON_0004550	esophagus (gej)	esophagus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_esophagus_mucosa	cis-sQTL	transcript	493	tissue	EUR	bulk-RNASeq	UBERON_0006920	esophagus (mucosa)	esophagus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_esophagus_muscularis	cis-sQTL	transcript	461	tissue	EUR	bulk-RNASeq	UBERON_0004648	esophagus (muscularis)	esophagus	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_fibroblast	cis-sQTL	transcript	483	cell	EUR	bulk-RNASeq	CL_0000057	fibroblast	muscle	fibroblast	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_heart_atrial_appendage	cis-sQTL	transcript	372	tissue	EUR	bulk-RNASeq	UBERON_0006631	heart (atrial appendage)	heart	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_heart_left_ventricle	cis-sQTL	transcript	382	tissue	EUR	bulk-RNASeq	UBERON_0006566	heart (left ventricle)	heart	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_kidney_cortex	cis-sQTL	transcript	73	tissue	EUR	bulk-RNASeq	UBERON_0001225	kidney (cortex)	kidney	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_LCL	cis-sQTL	transcript	147	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_liver	cis-sQTL	transcript	208	tissue	EUR	bulk-RNASeq	UBERON_0001114	liver	liver	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_lung	cis-sQTL	transcript	510	tissue	EUR	bulk-RNASeq	UBERON_0008952	lung	lung	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_minor_salivary_gland	cis-sQTL	transcript	144	tissue	EUR	bulk-RNASeq	UBERON_0006330	minor salivary gland	salivary gland	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_muscle	cis-sQTL	transcript	702	tissue	EUR	bulk-RNASeq	UBERON_0001134	muscle (skeletal)	muscle	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_nerve_tibial	cis-sQTL	transcript	532	tissue	EUR	bulk-RNASeq	UBERON_0001323	tibial nerve	nerve	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_ovary	cis-sQTL	transcript	167	tissue	EUR	bulk-RNASeq	UBERON_0000992	ovary	ovary	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_pancreas	cis-sQTL	transcript	305	tissue	EUR	bulk-RNASeq	UBERON_0001150	pancreas	pancreas	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_pituitary	cis-sQTL	transcript	237	tissue	EUR	bulk-RNASeq	UBERON_0000007	pituitary	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_prostate	cis-sQTL	transcript	218	tissue	EUR	bulk-RNASeq	UBERON_0002367	prostate	prostate	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_skin_not_sun_exposed	cis-sQTL	transcript	517	tissue	EUR	bulk-RNASeq	UBERON_0036149	skin (suprapubic)	skin	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_skin_sun_exposed	cis-sQTL	transcript	602	tissue	EUR	bulk-RNASeq	UBERON_0002097	skin (sun exposed)	skin	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_small_intestine	cis-sQTL	transcript	174	tissue	EUR	bulk-RNASeq	UBERON_0001211	small intestine	intestine	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_spleen	cis-sQTL	transcript	227	tissue	EUR	bulk-RNASeq	UBERON_0002106	spleen	spleen	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_stomach	cis-sQTL	transcript	324	tissue	EUR	bulk-RNASeq	UBERON_0000945	stomach	stomach	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_testis	cis-sQTL	transcript	322	tissue	EUR	bulk-RNASeq	UBERON_0000473	testis	testis	heterogeneous	germinal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_thyroid	cis-sQTL	transcript	574	tissue	EUR	bulk-RNASeq	UBERON_0002046	thyroid	thyroid	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_uterus	cis-sQTL	transcript	129	tissue	EUR	bulk-RNASeq	UBERON_0000995	uterus	uterus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_tx_vagina	cis-sQTL	transcript	141	tissue	EUR	bulk-RNASeq	UBERON_0000996	vagina	vagina	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	HipSci_tx_iPSC	cis-sQTL	transcript	322	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28489815	HipSci	NA
+eQTL_Catalogue	iPSCORE_tx_iPSC	cis-sQTL	transcript	101	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28410642	iPSCORE	NA
+eQTL_Catalogue	Lepik_2017_tx_blood	cis-sQTL	transcript	471	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	28922377	Lepik_2017	NA
+eQTL_Catalogue	Nedelec_2016_tx_macrophage_Listeria	cis-sQTL	transcript	163	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	Listeria_5h	27768889	Nedelec_2016	NA
+eQTL_Catalogue	Nedelec_2016_tx_macrophage_naive	cis-sQTL	transcript	163	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	naive	27768889	Nedelec_2016	NA
+eQTL_Catalogue	Nedelec_2016_tx_macrophage_Salmonella	cis-sQTL	transcript	167	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	Salmonella_5h	27768889	Nedelec_2016	NA
+eQTL_Catalogue	Peng_2018_tx_placenta_naive	cis-sQTL	transcript	149	tissue	EUR	bulk-RNASeq	UBERON_0001987	placenta	placenta	heterogeneous	epithelial	naive	30596636	Peng_2018	NA
+eQTL_Catalogue	PhLiPS_tx_HLC	cis-sQTL	transcript	79	tissue	EUR	bulk-RNASeq	CL_0000182	hepatocyte	liver	heterogeneous	epithelial	naive	28388432	PhLiPS	NA
+eQTL_Catalogue	PhLiPS_tx_iPSC	cis-sQTL	transcript	83	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28388432	PhLiPS	NA
+eQTL_Catalogue	Quach_2016_tx_monocyte_IAV	cis-sQTL	transcript	198	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	Influenza_6h	27768888	Quach_2016	NA
+eQTL_Catalogue	Quach_2016_tx_monocyte_LPS	cis-sQTL	transcript	184	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	LPS_6h	27768888	Quach_2016	NA
+eQTL_Catalogue	Quach_2016_tx_monocyte_naive	cis-sQTL	transcript	200	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	naive	27768888	Quach_2016	NA
+eQTL_Catalogue	Quach_2016_tx_monocyte_Pam3CSK4	cis-sQTL	transcript	196	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	Pam3CSK4_6h	27768888	Quach_2016	NA
+eQTL_Catalogue	Quach_2016_tx_monocyte_R848	cis-sQTL	transcript	191	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	R848_6h	27768888	Quach_2016	NA
+eQTL_Catalogue	ROSMAP_tx_brain_naive	cis-sQTL	transcript	560	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	28869584	ROSMAP	NA
+eQTL_Catalogue	Schmiedel_2018_tx_B-cell_naive	cis-sQTL	transcript	91	cell	EUR	bulk-RNASeq	CL_0000236	B cell	blood	B-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_CD4_T-cell_anti-CD3-CD28	cis-sQTL	transcript	89	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	T-cell	immune	anti-CD3-CD28_4h	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_CD4_T-cell_naive	cis-sQTL	transcript	88	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_CD8_T-cell_anti-CD3-CD28	cis-sQTL	transcript	88	cell	EUR	bulk-RNASeq	CL_0000625	CD8+ T cell	blood	T-cell	immune	anti-CD3-CD28_4h	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_CD8_T-cell_naive	cis-sQTL	transcript	89	cell	EUR	bulk-RNASeq	CL_0000625	CD8+ T cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_monocyte_CD16_naive	cis-sQTL	transcript	90	cell	EUR	bulk-RNASeq	CL_0002396	CD16+ monocyte	blood	monocyte	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_monocyte_naive	cis-sQTL	transcript	91	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_NK-cell_naive	cis-sQTL	transcript	90	cell	EUR	bulk-RNASeq	CL_0000623	NK	blood	NK	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_Tfh_memory	cis-sQTL	transcript	89	cell	EUR	bulk-RNASeq	CL_0002038	Tfh cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_Th1-17_memory	cis-sQTL	transcript	82	cell	EUR	bulk-RNASeq	CL_0000545	Th1 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_Th17_memory	cis-sQTL	transcript	88	cell	EUR	bulk-RNASeq	CL_0000899	Th17 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_Th1_memory	cis-sQTL	transcript	89	cell	EUR	bulk-RNASeq	CL_0000899	Th17 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_Th2_memory	cis-sQTL	transcript	89	cell	EUR	bulk-RNASeq	CL_0000546	Th2 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_Treg_memory	cis-sQTL	transcript	89	cell	EUR	bulk-RNASeq	CL_0002678	Treg naive	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_tx_Treg_naive	cis-sQTL	transcript	89	cell	EUR	bulk-RNASeq	CL_0002677	Treg memory	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schwartzentruber_2018_tx_sensory_neuron	cis-sQTL	transcript	98	cell	EUR	bulk-RNASeq	CL_0000101	sensory neuron	brain	neuron	neural	naive	29229984	Schwartzentruber_2018	NA
+eQTL_Catalogue	Steinberg_2020_tx_high_grade_cartilage_naive	cis-sQTL	transcript	69	tissue	EUR	bulk-RNASeq	UBERON_0002418	cartilage	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	NA
+eQTL_Catalogue	Steinberg_2020_tx_low_grade_cartilage_naive	cis-sQTL	transcript	69	tissue	EUR	bulk-RNASeq	UBERON_0002418	cartilage	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	NA
+eQTL_Catalogue	Steinberg_2020_tx_synovium_naive	cis-sQTL	transcript	72	tissue	EUR	bulk-RNASeq	UBERON_0007616	synovium	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	NA
+eQTL_Catalogue	TwinsUK_tx_blood	cis-sQTL	transcript	195	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	25436857	TwinsUK	NA
+eQTL_Catalogue	TwinsUK_tx_fat	cis-sQTL	transcript	381	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose	adipose	heterogeneous	connective	naive	25436857	TwinsUK	NA
+eQTL_Catalogue	TwinsUK_tx_LCL	cis-sQTL	transcript	418	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	25436857	TwinsUK	NA
+eQTL_Catalogue	TwinsUK_tx_skin	cis-sQTL	transcript	370	tissue	EUR	bulk-RNASeq	UBERON_0002097	skin	skin	heterogeneous	epithelial	naive	25436857	TwinsUK	NA
+eQTL_Catalogue	van_de_Bunt_2015_tx_pancreatic_islet	cis-sQTL	transcript	117	tissue	EUR	bulk-RNASeq	UBERON_0000006	pancreatic islet	pancreas	heterogeneous	epithelial	naive	26624892	van_de_Bunt_2015	NA
+eQTL_Catalogue	Young_2019_tx_microglia_naive	cis-sQTL	transcript	104	cell	EUR	bulk-RNASeq	CL_0000129	microglia	brain	microglia	immune	naive	34083789	Young_2019	NA
+eQTL_Catalogue	Alasoo_2018_lf_macrophage_IFNg	cis-sQTL	leafcutter	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	IFNg	29379200	Alasoo_2018	NA
+eQTL_Catalogue	Alasoo_2018_lf_macrophage_IFNg+Salmonella	cis-sQTL	leafcutter	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	IFNg+Salmonella	29379200	Alasoo_2018	NA
+eQTL_Catalogue	Alasoo_2018_lf_macrophage_naive	cis-sQTL	leafcutter	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	naive	29379200	Alasoo_2018	NA
+eQTL_Catalogue	Alasoo_2018_lf_macrophage_Salmonella	cis-sQTL	leafcutter	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	Salmonella	29379200	Alasoo_2018	NA
+eQTL_Catalogue	BLUEPRINT_lf_monocyte	cis-sQTL	leafcutter	191	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	myeloid	immune	naive	27863251	BLUEPRINT	NA
+eQTL_Catalogue	BLUEPRINT_lf_neutrophil	cis-sQTL	leafcutter	196	cell	EUR	bulk-RNASeq	CL_0000775	neutrophil	blood	myeloid	immune	naive	27863251	BLUEPRINT	NA
+eQTL_Catalogue	BLUEPRINT_lf_T-cell	cis-sQTL	leafcutter	167	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	lymphoid	immune	naive	27863251	BLUEPRINT	NA
+eQTL_Catalogue	Bossini-Castillo_2019_lf_Treg_naive	cis-sQTL	leafcutter	119	cell	EUR	bulk-RNASeq	CL_0002677	Treg memory	blood	lymphoid	immune	naive	35591976	?	NA
+eQTL_Catalogue	Braineac2_lf_putamen	cis-sQTL	leafcutter	102	tissue	EUR	bulk-RNASeq	UBERON_0001874	brain (putamen)	brain	heterogeneous	neural	naive	32098967	Braineac2	NA
+eQTL_Catalogue	Braineac2_lf_substantia_nigra	cis-sQTL	leafcutter	65	tissue	EUR	bulk-RNASeq	UBERON_0002038	brain (substantia nigra)	brain	heterogeneous	neural	naive	32098967	Braineac2	NA
+eQTL_Catalogue	BrainSeq_lf_brain	cis-sQTL	leafcutter	479	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	30050107	BrainSeq	NA
+eQTL_Catalogue	CAP_lf_LCL_naive	cis-sQTL	leafcutter	148	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	32787775	CAP	NA
+eQTL_Catalogue	CAP_lf_LCL_statin	cis-sQTL	leafcutter	148	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	statin	32787775	CAP	NA
+eQTL_Catalogue	CommonMind_lf_DLPFC_naive	cis-sQTL	leafcutter	586	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	blood	heterogeneous	neural	naive	31551426	CommonMind	NA
+eQTL_Catalogue	FUSION_lf_adipose_naive	cis-sQTL	leafcutter	271	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose (subcutaneous)	adipose	heterogeneous	connective	naive	31076557	FUSION	NA
+eQTL_Catalogue	FUSION_lf_muscle_naive	cis-sQTL	leafcutter	288	tissue	EUR	bulk-RNASeq	UBERON_0001134	muscle (skeletal)	muscle	heterogeneous	stromal	naive	31076557	FUSION	NA
+eQTL_Catalogue	GENCORD_lf_fibroblast	cis-sQTL	leafcutter	186	cell	EUR	bulk-RNASeq	CL_0000057	fibroblast	muscle	fibroblast	stromal	naive	23755361	GENCORD	NA
+eQTL_Catalogue	GENCORD_lf_LCL	cis-sQTL	leafcutter	190	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	23755361	GENCORD	NA
+eQTL_Catalogue	GENCORD_lf_T-cell	cis-sQTL	leafcutter	184	cell	EUR	bulk-RNASeq	CL_0000084	T cell	blood	T-cell	immune	naive	23755361	GENCORD	NA
+eQTL_Catalogue	GEUVADIS_lf_LCL	cis-sQTL	leafcutter	445	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	24037378	GEUVADIS	NA
+eQTL_Catalogue	GTEx_lf_adipose_subcutaneous	cis-sQTL	leafcutter	581	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose (subcutaneous)	adipose	heterogeneous	connective	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_adipose_visceral	cis-sQTL	leafcutter	469	tissue	EUR	bulk-RNASeq	UBERON_0010414	adipose (visceral)	adipose	heterogeneous	connective	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_adrenal_gland	cis-sQTL	leafcutter	233	tissue	EUR	bulk-RNASeq	UBERON_0002369	adrenal gland	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_artery_aorta	cis-sQTL	leafcutter	387	tissue	EUR	bulk-RNASeq	UBERON_0001496	artery (aorta)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_artery_coronary	cis-sQTL	leafcutter	213	tissue	EUR	bulk-RNASeq	UBERON_0001621	artery (coronary)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_artery_tibial	cis-sQTL	leafcutter	584	tissue	EUR	bulk-RNASeq	UBERON_0007610	artery (tibial)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_blood	cis-sQTL	leafcutter	670	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_amygdala	cis-sQTL	leafcutter	129	tissue	EUR	bulk-RNASeq	UBERON_0001876	brain (amygdala)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_anterior_cingulate_cortex	cis-sQTL	leafcutter	147	tissue	EUR	bulk-RNASeq	UBERON_0009835	brain (anterior cingulate cortex)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_caudate	cis-sQTL	leafcutter	194	tissue	EUR	bulk-RNASeq	UBERON_0001873	brain (caudate)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_cerebellar_hemisphere	cis-sQTL	leafcutter	175	tissue	EUR	bulk-RNASeq	UBERON_0002037	brain (cerebellum)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_cerebellum	cis-sQTL	leafcutter	209	tissue	EUR	bulk-RNASeq	UBERON_0002037	brain (cerebellum)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_cortex	cis-sQTL	leafcutter	205	tissue	EUR	bulk-RNASeq	UBERON_0001870	brain (cortex)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_frontal_cortex	cis-sQTL	leafcutter	175	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_hippocampus	cis-sQTL	leafcutter	165	tissue	EUR	bulk-RNASeq	UBERON_0001954	brain (hippocampus)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_hypothalamus	cis-sQTL	leafcutter	170	tissue	EUR	bulk-RNASeq	UBERON_0001898	brain (hypothalamus)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_nucleus_accumbens	cis-sQTL	leafcutter	202	tissue	EUR	bulk-RNASeq	UBERON_0001882	brain (nucleus accumbens)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_putamen	cis-sQTL	leafcutter	170	tissue	EUR	bulk-RNASeq	UBERON_0001874	brain (putamen)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_spinal_cord	cis-sQTL	leafcutter	126	tissue	EUR	bulk-RNASeq	UBERON_0006469	brain (spinal cord)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_brain_substantia_nigra	cis-sQTL	leafcutter	114	tissue	EUR	bulk-RNASeq	UBERON_0002038	brain (substantia nigra)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_breast	cis-sQTL	leafcutter	394	tissue	EUR	bulk-RNASeq	UBERON_0008367	breast (mammary)	breast	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_colon_sigmoid	cis-sQTL	leafcutter	318	tissue	EUR	bulk-RNASeq	UBERON_0001159	sigmoid colon	colon	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_colon_transverse	cis-sQTL	leafcutter	368	tissue	EUR	bulk-RNASeq	UBERON_0001157	transverse colon	colon	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_esophagus_gej	cis-sQTL	leafcutter	330	tissue	EUR	bulk-RNASeq	UBERON_0004550	esophagus (gej)	esophagus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_esophagus_mucosa	cis-sQTL	leafcutter	493	tissue	EUR	bulk-RNASeq	UBERON_0006920	esophagus (mucosa)	esophagus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_esophagus_muscularis	cis-sQTL	leafcutter	461	tissue	EUR	bulk-RNASeq	UBERON_0004648	esophagus (muscularis)	esophagus	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_fibroblast	cis-sQTL	leafcutter	483	cell	EUR	bulk-RNASeq	CL_0000057	fibroblast	muscle	fibroblast	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_heart_atrial_appendage	cis-sQTL	leafcutter	372	tissue	EUR	bulk-RNASeq	UBERON_0006631	heart (atrial appendage)	heart	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_heart_left_ventricle	cis-sQTL	leafcutter	382	tissue	EUR	bulk-RNASeq	UBERON_0006566	heart (left ventricle)	heart	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_kidney_cortex	cis-sQTL	leafcutter	73	tissue	EUR	bulk-RNASeq	UBERON_0001225	kidney (cortex)	kidney	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_LCL	cis-sQTL	leafcutter	147	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_liver	cis-sQTL	leafcutter	208	tissue	EUR	bulk-RNASeq	UBERON_0001114	liver	liver	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_lung	cis-sQTL	leafcutter	510	tissue	EUR	bulk-RNASeq	UBERON_0008952	lung	lung	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_minor_salivary_gland	cis-sQTL	leafcutter	144	tissue	EUR	bulk-RNASeq	UBERON_0006330	minor salivary gland	salivary gland	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_muscle	cis-sQTL	leafcutter	702	tissue	EUR	bulk-RNASeq	UBERON_0001134	muscle (skeletal)	muscle	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_nerve_tibial	cis-sQTL	leafcutter	532	tissue	EUR	bulk-RNASeq	UBERON_0001323	tibial nerve	nerve	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_ovary	cis-sQTL	leafcutter	167	tissue	EUR	bulk-RNASeq	UBERON_0000992	ovary	ovary	heterogeneous	stromal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_pancreas	cis-sQTL	leafcutter	305	tissue	EUR	bulk-RNASeq	UBERON_0001150	pancreas	pancreas	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_pituitary	cis-sQTL	leafcutter	237	tissue	EUR	bulk-RNASeq	UBERON_0000007	pituitary	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_prostate	cis-sQTL	leafcutter	218	tissue	EUR	bulk-RNASeq	UBERON_0002367	prostate	prostate	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_skin_not_sun_exposed	cis-sQTL	leafcutter	517	tissue	EUR	bulk-RNASeq	UBERON_0036149	skin (suprapubic)	skin	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_skin_sun_exposed	cis-sQTL	leafcutter	602	tissue	EUR	bulk-RNASeq	UBERON_0002097	skin (sun exposed)	skin	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_small_intestine	cis-sQTL	leafcutter	174	tissue	EUR	bulk-RNASeq	UBERON_0001211	small intestine	intestine	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_spleen	cis-sQTL	leafcutter	227	tissue	EUR	bulk-RNASeq	UBERON_0002106	spleen	spleen	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_stomach	cis-sQTL	leafcutter	324	tissue	EUR	bulk-RNASeq	UBERON_0000945	stomach	stomach	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_testis	cis-sQTL	leafcutter	322	tissue	EUR	bulk-RNASeq	UBERON_0000473	testis	testis	heterogeneous	germinal	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_thyroid	cis-sQTL	leafcutter	574	tissue	EUR	bulk-RNASeq	UBERON_0002046	thyroid	thyroid	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_uterus	cis-sQTL	leafcutter	129	tissue	EUR	bulk-RNASeq	UBERON_0000995	uterus	uterus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	GTEx_lf_vagina	cis-sQTL	leafcutter	141	tissue	EUR	bulk-RNASeq	UBERON_0000996	vagina	vagina	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	NA
+eQTL_Catalogue	HipSci_lf_iPSC	cis-sQTL	leafcutter	322	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28489815	HipSci	NA
+eQTL_Catalogue	iPSCORE_lf_iPSC	cis-sQTL	leafcutter	101	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28410642	iPSCORE	NA
+eQTL_Catalogue	Lepik_2017_lf_blood	cis-sQTL	leafcutter	471	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	28922377	Lepik_2017	NA
+eQTL_Catalogue	Nedelec_2016_lf_macrophage_Listeria	cis-sQTL	leafcutter	163	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	Listeria_5h	27768889	Nedelec_2016	NA
+eQTL_Catalogue	Nedelec_2016_lf_macrophage_naive	cis-sQTL	leafcutter	163	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	naive	27768889	Nedelec_2016	NA
+eQTL_Catalogue	Nedelec_2016_lf_macrophage_Salmonella	cis-sQTL	leafcutter	167	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	Salmonella_5h	27768889	Nedelec_2016	NA
+eQTL_Catalogue	Peng_2018_lf_placenta_naive	cis-sQTL	leafcutter	149	tissue	EUR	bulk-RNASeq	UBERON_0001987	placenta	placenta	heterogeneous	epithelial	naive	30596636	Peng_2018	NA
+eQTL_Catalogue	PhLiPS_lf_HLC	cis-sQTL	leafcutter	79	tissue	EUR	bulk-RNASeq	CL_0000182	hepatocyte	liver	heterogeneous	epithelial	naive	28388432	PhLiPS	NA
+eQTL_Catalogue	PhLiPS_lf_iPSC	cis-sQTL	leafcutter	83	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28388432	PhLiPS	NA
+eQTL_Catalogue	Quach_2016_lf_monocyte_IAV	cis-sQTL	leafcutter	198	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	Influenza_6h	27768888	Quach_2016	NA
+eQTL_Catalogue	Quach_2016_lf_monocyte_LPS	cis-sQTL	leafcutter	184	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	LPS_6h	27768888	Quach_2016	NA
+eQTL_Catalogue	Quach_2016_lf_monocyte_naive	cis-sQTL	leafcutter	200	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	naive	27768888	Quach_2016	NA
+eQTL_Catalogue	Quach_2016_lf_monocyte_Pam3CSK4	cis-sQTL	leafcutter	196	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	Pam3CSK4_6h	27768888	Quach_2016	NA
+eQTL_Catalogue	Quach_2016_lf_monocyte_R848	cis-sQTL	leafcutter	191	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	R848_6h	27768888	Quach_2016	NA
+eQTL_Catalogue	ROSMAP_lf_brain_naive	cis-sQTL	leafcutter	560	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	28869584	ROSMAP	NA
+eQTL_Catalogue	Schmiedel_2018_lf_B-cell_naive	cis-sQTL	leafcutter	91	cell	EUR	bulk-RNASeq	CL_0000236	B cell	blood	B-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_CD4_T-cell_anti-CD3-CD28	cis-sQTL	leafcutter	89	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	T-cell	immune	anti-CD3-CD28_4h	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_CD4_T-cell_naive	cis-sQTL	leafcutter	88	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_CD8_T-cell_anti-CD3-CD28	cis-sQTL	leafcutter	88	cell	EUR	bulk-RNASeq	CL_0000625	CD8+ T cell	blood	T-cell	immune	anti-CD3-CD28_4h	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_CD8_T-cell_naive	cis-sQTL	leafcutter	89	cell	EUR	bulk-RNASeq	CL_0000625	CD8+ T cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_monocyte_CD16_naive	cis-sQTL	leafcutter	90	cell	EUR	bulk-RNASeq	CL_0002396	CD16+ monocyte	blood	monocyte	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_monocyte_naive	cis-sQTL	leafcutter	91	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_NK-cell_naive	cis-sQTL	leafcutter	90	cell	EUR	bulk-RNASeq	CL_0000623	NK	blood	NK	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_Tfh_memory	cis-sQTL	leafcutter	89	cell	EUR	bulk-RNASeq	CL_0002038	Tfh cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_Th1-17_memory	cis-sQTL	leafcutter	82	cell	EUR	bulk-RNASeq	CL_0000545	Th1 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_Th17_memory	cis-sQTL	leafcutter	88	cell	EUR	bulk-RNASeq	CL_0000899	Th17 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_Th1_memory	cis-sQTL	leafcutter	89	cell	EUR	bulk-RNASeq	CL_0000899	Th17 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_Th2_memory	cis-sQTL	leafcutter	89	cell	EUR	bulk-RNASeq	CL_0000546	Th2 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_Treg_memory	cis-sQTL	leafcutter	89	cell	EUR	bulk-RNASeq	CL_0002678	Treg naive	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schmiedel_2018_lf_Treg_naive	cis-sQTL	leafcutter	89	cell	EUR	bulk-RNASeq	CL_0002677	Treg memory	blood	T-cell	immune	naive	30449622	Schmiedel_2018	NA
+eQTL_Catalogue	Schwartzentruber_2018_lf_sensory_neuron	cis-sQTL	leafcutter	98	cell	EUR	bulk-RNASeq	CL_0000101	sensory neuron	brain	neuron	neural	naive	29229984	Schwartzentruber_2018	NA
+eQTL_Catalogue	Steinberg_2020_lf_high_grade_cartilage_naive	cis-sQTL	leafcutter	69	tissue	EUR	bulk-RNASeq	UBERON_0002418	cartilage	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	NA
+eQTL_Catalogue	Steinberg_2020_lf_low_grade_cartilage_naive	cis-sQTL	leafcutter	69	tissue	EUR	bulk-RNASeq	UBERON_0002418	cartilage	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	NA
+eQTL_Catalogue	Steinberg_2020_lf_synovium_naive	cis-sQTL	leafcutter	72	tissue	EUR	bulk-RNASeq	UBERON_0007616	synovium	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	NA
+eQTL_Catalogue	TwinsUK_lf_blood	cis-sQTL	leafcutter	195	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	25436857	TwinsUK	NA
+eQTL_Catalogue	TwinsUK_lf_fat	cis-sQTL	leafcutter	381	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose	adipose	heterogeneous	connective	naive	25436857	TwinsUK	NA
+eQTL_Catalogue	TwinsUK_lf_LCL	cis-sQTL	leafcutter	418	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	25436857	TwinsUK	NA
+eQTL_Catalogue	TwinsUK_lf_skin	cis-sQTL	leafcutter	370	tissue	EUR	bulk-RNASeq	UBERON_0002097	skin	skin	heterogeneous	epithelial	naive	25436857	TwinsUK	NA
+eQTL_Catalogue	van_de_Bunt_2015_lf_pancreatic_islet	cis-sQTL	leafcutter	117	tissue	EUR	bulk-RNASeq	UBERON_0000006	pancreatic islet	pancreas	heterogeneous	epithelial	naive	26624892	van_de_Bunt_2015	NA
+eQTL_Catalogue	Young_2019_lf_microglia_naive	cis-sQTL	leafcutter	104	cell	EUR	bulk-RNASeq	CL_0000129	microglia	brain	microglia	immune	naive	34083789	Young_2019	NA
+eQTL_Catalogue	Sun_2018	cis-pQTL	aptamer	3301	tissue	EUR	SomaScan	UBERON_0001969	plasma	blood	heterogeneous	immune	naive	29875488	SUN2018	SUN2018
+eQTL_Catalogue	Alasoo_2018_ge_macrophage_IFNg	cis-eQTL	gene	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	IFNg	29379200	Alasoo_2018	MACROPHAGE_NAIVE
+eQTL_Catalogue	Alasoo_2018_ge_macrophage_IFNg+Salmonella	cis-eQTL	gene	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	IFNg+Salmonella	29379200	Alasoo_2018	MACROPHAGE_SALMONELLA
+eQTL_Catalogue	Alasoo_2018_ge_macrophage_naive	cis-eQTL	gene	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	naive	29379200	Alasoo_2018	MACROPHAGE_IFNG
+eQTL_Catalogue	Alasoo_2018_ge_macrophage_Salmonella	cis-eQTL	gene	84	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	myeloid	immune	Salmonella	29379200	Alasoo_2018	MACROPHAGE_IFNG+SALMONELLA
+eQTL_Catalogue	BLUEPRINT_ge_monocyte	cis-eQTL	gene	191	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	myeloid	immune	naive	27863251	BLUEPRINT	MONOCYTE
+eQTL_Catalogue	BLUEPRINT_ge_neutrophil	cis-eQTL	gene	196	cell	EUR	bulk-RNASeq	CL_0000775	neutrophil	blood	myeloid	immune	naive	27863251	BLUEPRINT	T-CELL
+eQTL_Catalogue	BLUEPRINT_ge_T-cell	cis-eQTL	gene	167	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	lymphoid	immune	naive	27863251	BLUEPRINT	NEUTROPHIL
+eQTL_Catalogue	Bossini-Castillo_2019_ge_Treg_naive	cis-eQTL	gene	119	cell	EUR	bulk-RNASeq	CL_0002677	Treg memory	blood	lymphoid	immune	naive	35591976	?	?
+eQTL_Catalogue	Braineac2_ge_putamen	cis-eQTL	gene	102	tissue	EUR	bulk-RNASeq	UBERON_0001874	brain (putamen)	brain	heterogeneous	neural	naive	32098967	Braineac2	PUTAMEN
+eQTL_Catalogue	Braineac2_ge_substantia_nigra	cis-eQTL	gene	65	tissue	EUR	bulk-RNASeq	UBERON_0002038	brain (substantia nigra)	brain	heterogeneous	neural	naive	32098967	Braineac2	SUBSTANTIA_NIGRA
+eQTL_Catalogue	BrainSeq_ge_brain	cis-eQTL	gene	479	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	30050107	BrainSeq	BRAIN
+eQTL_Catalogue	CAP_ge_LCL_naive	cis-eQTL	gene	148	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	32787775	CAP	LCL_STATIN
+eQTL_Catalogue	CAP_ge_LCL_statin	cis-eQTL	gene	148	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	statin	32787775	CAP	LCL_NAIVE
+eQTL_Catalogue	CommonMind_ge_DLPFC_naive	cis-eQTL	gene	586	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	blood	heterogeneous	neural	naive	31551426	CommonMind	DLPFC_NAIVE
+eQTL_Catalogue	FUSION_ge_adipose_naive	cis-eQTL	gene	271	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose (subcutaneous)	adipose	heterogeneous	connective	naive	31076557	FUSION	ADIPOSE_NAIVE
+eQTL_Catalogue	FUSION_ge_muscle_naive	cis-eQTL	gene	288	tissue	EUR	bulk-RNASeq	UBERON_0001134	muscle (skeletal)	muscle	heterogeneous	stromal	naive	31076557	FUSION	MUSCLE_NAIVE
+eQTL_Catalogue	GENCORD_ge_fibroblast	cis-eQTL	gene	186	cell	EUR	bulk-RNASeq	CL_0000057	fibroblast	muscle	fibroblast	stromal	naive	23755361	GENCORD	FIBROBLAST
+eQTL_Catalogue	GENCORD_ge_LCL	cis-eQTL	gene	190	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	23755361	GENCORD	LCL
+eQTL_Catalogue	GENCORD_ge_T-cell	cis-eQTL	gene	184	cell	EUR	bulk-RNASeq	CL_0000084	T cell	blood	T-cell	immune	naive	23755361	GENCORD	T-CELL
+eQTL_Catalogue	GEUVADIS_ge_LCL	cis-eQTL	gene	445	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	24037378	GEUVADIS	LCL
+eQTL_Catalogue	GTEx_ge_adipose_subcutaneous	cis-eQTL	gene	581	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose (subcutaneous)	adipose	heterogeneous	connective	naive	32913098	GTEx-eQTL	GTEx-eQTL_ADIPOSE_SUBCUTANEOUS
+eQTL_Catalogue	GTEx_ge_adipose_visceral	cis-eQTL	gene	469	tissue	EUR	bulk-RNASeq	UBERON_0010414	adipose (visceral)	adipose	heterogeneous	connective	naive	32913098	GTEx-eQTL	GTEx-eQTL_ADIPOSE_VISCERAL
+eQTL_Catalogue	GTEx_ge_adrenal_gland	cis-eQTL	gene	233	tissue	EUR	bulk-RNASeq	UBERON_0002369	adrenal gland	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_ADRENAL_GLAND
+eQTL_Catalogue	GTEx_ge_artery_aorta	cis-eQTL	gene	387	tissue	EUR	bulk-RNASeq	UBERON_0001496	artery (aorta)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_ARTERY_AORTA
+eQTL_Catalogue	GTEx_ge_artery_coronary	cis-eQTL	gene	213	tissue	EUR	bulk-RNASeq	UBERON_0001621	artery (coronary)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_ARTERY_CORONARY
+eQTL_Catalogue	GTEx_ge_artery_tibial	cis-eQTL	gene	584	tissue	EUR	bulk-RNASeq	UBERON_0007610	artery (tibial)	artery	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_ARTERY_TIBIAL
+eQTL_Catalogue	GTEx_ge_blood	cis-eQTL	gene	670	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	32913098	GTEx-eQTL	GTEx-eQTL_BLOOD
+eQTL_Catalogue	GTEx_ge_brain_amygdala	cis-eQTL	gene	129	tissue	EUR	bulk-RNASeq	UBERON_0001876	brain (amygdala)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_AMYGDALA
+eQTL_Catalogue	GTEx_ge_brain_anterior_cingulate_cortex	cis-eQTL	gene	147	tissue	EUR	bulk-RNASeq	UBERON_0009835	brain (anterior cingulate cortex)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_ANTERIOR_CINGULATE_CORTEX
+eQTL_Catalogue	GTEx_ge_brain_caudate	cis-eQTL	gene	194	tissue	EUR	bulk-RNASeq	UBERON_0001873	brain (caudate)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_CAUDATE
+eQTL_Catalogue	GTEx_ge_brain_cerebellar_hemisphere	cis-eQTL	gene	175	tissue	EUR	bulk-RNASeq	UBERON_0002037	brain (cerebellum)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_CEREBELLAR_HEMISPHERE
+eQTL_Catalogue	GTEx_ge_brain_cerebellum	cis-eQTL	gene	209	tissue	EUR	bulk-RNASeq	UBERON_0002037	brain (cerebellum)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_CEREBELLUM
+eQTL_Catalogue	GTEx_ge_brain_cortex	cis-eQTL	gene	205	tissue	EUR	bulk-RNASeq	UBERON_0001870	brain (cortex)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_CORTEX
+eQTL_Catalogue	GTEx_ge_brain_frontal_cortex	cis-eQTL	gene	175	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_FRONTAL_CORTEX
+eQTL_Catalogue	GTEx_ge_brain_hippocampus	cis-eQTL	gene	165	tissue	EUR	bulk-RNASeq	UBERON_0001954	brain (hippocampus)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_HIPPOCAMPUS
+eQTL_Catalogue	GTEx_ge_brain_hypothalamus	cis-eQTL	gene	170	tissue	EUR	bulk-RNASeq	UBERON_0001898	brain (hypothalamus)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_HYPOTHALAMUS
+eQTL_Catalogue	GTEx_ge_brain_nucleus_accumbens	cis-eQTL	gene	202	tissue	EUR	bulk-RNASeq	UBERON_0001882	brain (nucleus accumbens)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_NUCLEUS_ACCUMBENS
+eQTL_Catalogue	GTEx_ge_brain_putamen	cis-eQTL	gene	170	tissue	EUR	bulk-RNASeq	UBERON_0001874	brain (putamen)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_PUTAMEN
+eQTL_Catalogue	GTEx_ge_brain_spinal_cord	cis-eQTL	gene	126	tissue	EUR	bulk-RNASeq	UBERON_0006469	brain (spinal cord)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_SPINAL_CORD
+eQTL_Catalogue	GTEx_ge_brain_substantia_nigra	cis-eQTL	gene	114	tissue	EUR	bulk-RNASeq	UBERON_0002038	brain (substantia nigra)	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_BRAIN_SUBSTANTIA_NIGRA
+eQTL_Catalogue	GTEx_ge_breast	cis-eQTL	gene	394	tissue	EUR	bulk-RNASeq	UBERON_0008367	breast (mammary)	breast	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_BREAST
+eQTL_Catalogue	GTEx_ge_colon_sigmoid	cis-eQTL	gene	318	tissue	EUR	bulk-RNASeq	UBERON_0001159	sigmoid colon	colon	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_COLON_SIGMOID
+eQTL_Catalogue	GTEx_ge_colon_transverse	cis-eQTL	gene	368	tissue	EUR	bulk-RNASeq	UBERON_0001157	transverse colon	colon	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_COLON_TRANSVERSE
+eQTL_Catalogue	GTEx_ge_esophagus_gej	cis-eQTL	gene	330	tissue	EUR	bulk-RNASeq	UBERON_0004550	esophagus (gej)	esophagus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_ESOPHAGUS_GEJ
+eQTL_Catalogue	GTEx_ge_esophagus_mucosa	cis-eQTL	gene	493	tissue	EUR	bulk-RNASeq	UBERON_0006920	esophagus (mucosa)	esophagus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_ESOPHAGUS_MUCOSA
+eQTL_Catalogue	GTEx_ge_esophagus_muscularis	cis-eQTL	gene	461	tissue	EUR	bulk-RNASeq	UBERON_0004648	esophagus (muscularis)	esophagus	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_ESOPHAGUS_MUSCULARIS
+eQTL_Catalogue	GTEx_ge_fibroblast	cis-eQTL	gene	483	cell	EUR	bulk-RNASeq	CL_0000057	fibroblast	muscle	fibroblast	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_FIBROBLAST
+eQTL_Catalogue	GTEx_ge_heart_atrial_appendage	cis-eQTL	gene	372	tissue	EUR	bulk-RNASeq	UBERON_0006631	heart (atrial appendage)	heart	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_HEART_ATRIAL_APPENDAGE
+eQTL_Catalogue	GTEx_ge_heart_left_ventricle	cis-eQTL	gene	382	tissue	EUR	bulk-RNASeq	UBERON_0006566	heart (left ventricle)	heart	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_HEART_LEFT_VENTRICLE
+eQTL_Catalogue	GTEx_ge_kidney_cortex	cis-eQTL	gene	73	tissue	EUR	bulk-RNASeq	UBERON_0001225	kidney (cortex)	kidney	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_KIDNEY_CORTEX
+eQTL_Catalogue	GTEx_ge_LCL	cis-eQTL	gene	147	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	32913098	GTEx-eQTL	GTEx-eQTL_LCL
+eQTL_Catalogue	GTEx_ge_liver	cis-eQTL	gene	208	tissue	EUR	bulk-RNASeq	UBERON_0001114	liver	liver	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_LIVER
+eQTL_Catalogue	GTEx_ge_lung	cis-eQTL	gene	510	tissue	EUR	bulk-RNASeq	UBERON_0008952	lung	lung	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_LUNG
+eQTL_Catalogue	GTEx_ge_minor_salivary_gland	cis-eQTL	gene	144	tissue	EUR	bulk-RNASeq	UBERON_0006330	minor salivary gland	salivary gland	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_MINOR_SALIVARY_GLAND
+eQTL_Catalogue	GTEx_ge_muscle	cis-eQTL	gene	702	tissue	EUR	bulk-RNASeq	UBERON_0001134	muscle (skeletal)	muscle	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_MUSCLE
+eQTL_Catalogue	GTEx_ge_nerve_tibial	cis-eQTL	gene	532	tissue	EUR	bulk-RNASeq	UBERON_0001323	tibial nerve	nerve	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_NERVE_TIBIAL
+eQTL_Catalogue	GTEx_ge_ovary	cis-eQTL	gene	167	tissue	EUR	bulk-RNASeq	UBERON_0000992	ovary	ovary	heterogeneous	stromal	naive	32913098	GTEx-eQTL	GTEx-eQTL_OVARY
+eQTL_Catalogue	GTEx_ge_pancreas	cis-eQTL	gene	305	tissue	EUR	bulk-RNASeq	UBERON_0001150	pancreas	pancreas	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_PANCREAS
+eQTL_Catalogue	GTEx_ge_pituitary	cis-eQTL	gene	237	tissue	EUR	bulk-RNASeq	UBERON_0000007	pituitary	brain	heterogeneous	neural	naive	32913098	GTEx-eQTL	GTEx-eQTL_PITUITARY
+eQTL_Catalogue	GTEx_ge_prostate	cis-eQTL	gene	218	tissue	EUR	bulk-RNASeq	UBERON_0002367	prostate	prostate	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_PROSTATE
+eQTL_Catalogue	GTEx_ge_skin_not_sun_exposed	cis-eQTL	gene	517	tissue	EUR	bulk-RNASeq	UBERON_0036149	skin (suprapubic)	skin	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_SKIN_NOT_SUN_EXPOSED
+eQTL_Catalogue	GTEx_ge_skin_sun_exposed	cis-eQTL	gene	602	tissue	EUR	bulk-RNASeq	UBERON_0002097	skin (sun exposed)	skin	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_SKIN_SUN_EXPOSED
+eQTL_Catalogue	GTEx_ge_small_intestine	cis-eQTL	gene	174	tissue	EUR	bulk-RNASeq	UBERON_0001211	small intestine	intestine	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_SMALL_INTESTINE
+eQTL_Catalogue	GTEx_ge_spleen	cis-eQTL	gene	227	tissue	EUR	bulk-RNASeq	UBERON_0002106	spleen	spleen	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_SPLEEN
+eQTL_Catalogue	GTEx_ge_stomach	cis-eQTL	gene	324	tissue	EUR	bulk-RNASeq	UBERON_0000945	stomach	stomach	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_STOMACH
+eQTL_Catalogue	GTEx_ge_testis	cis-eQTL	gene	322	tissue	EUR	bulk-RNASeq	UBERON_0000473	testis	testis	heterogeneous	germinal	naive	32913098	GTEx-eQTL	GTEx-eQTL_TESTIS
+eQTL_Catalogue	GTEx_ge_thyroid	cis-eQTL	gene	574	tissue	EUR	bulk-RNASeq	UBERON_0002046	thyroid	thyroid	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_THYROID
+eQTL_Catalogue	GTEx_ge_uterus	cis-eQTL	gene	129	tissue	EUR	bulk-RNASeq	UBERON_0000995	uterus	uterus	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_UTERUS
+eQTL_Catalogue	GTEx_ge_vagina	cis-eQTL	gene	141	tissue	EUR	bulk-RNASeq	UBERON_0000996	vagina	vagina	heterogeneous	epithelial	naive	32913098	GTEx-eQTL	GTEx-eQTL_VAGINA
+eQTL_Catalogue	HipSci_ge_iPSC	cis-eQTL	gene	322	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28489815	HipSci	IPSC
+eQTL_Catalogue	iPSCORE_ge_iPSC	cis-eQTL	gene	101	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28410642	iPSCORE	IPSC
+eQTL_Catalogue	Lepik_2017_ge_blood	cis-eQTL	gene	471	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	28922377	Lepik_2017	BLOOD
+eQTL_Catalogue	Nedelec_2016_ge_macrophage_Listeria	cis-eQTL	gene	163	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	Listeria_5h	27768889	Nedelec_2016	MACROPHAGE_NAIVE
+eQTL_Catalogue	Nedelec_2016_ge_macrophage_naive	cis-eQTL	gene	163	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	naive	27768889	Nedelec_2016	MACROPHAGE_LISTERIA
+eQTL_Catalogue	Nedelec_2016_ge_macrophage_Salmonella	cis-eQTL	gene	167	cell	EUR	bulk-RNASeq	CL_0000235	macrophage	blood	macrophage	immune	Salmonella_5h	27768889	Nedelec_2016	MACROPHAGE_SALMONELLA
+eQTL_Catalogue	Peng_2018_ge_placenta_naive	cis-eQTL	gene	149	tissue	EUR	bulk-RNASeq	UBERON_0001987	placenta	placenta	heterogeneous	epithelial	naive	30596636	Peng_2018	PLACENTA_NAIVE
+eQTL_Catalogue	PhLiPS_ge_HLC	cis-eQTL	gene	79	tissue	EUR	bulk-RNASeq	CL_0000182	hepatocyte	liver	heterogeneous	epithelial	naive	28388432	PhLiPS	HLC
+eQTL_Catalogue	PhLiPS_ge_iPSC	cis-eQTL	gene	83	cell	EUR	bulk-RNASeq	EFO_0004905	iPSC	iPSC	PSC	PSC	naive	28388432	PhLiPS	IPSC
+eQTL_Catalogue	Quach_2016_ge_monocyte_IAV	cis-eQTL	gene	198	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	Influenza_6h	27768888	Quach_2016	MONOCYTE_IAV
+eQTL_Catalogue	Quach_2016_ge_monocyte_LPS	cis-eQTL	gene	184	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	LPS_6h	27768888	Quach_2016	MONOCYTE_LPS
+eQTL_Catalogue	Quach_2016_ge_monocyte_naive	cis-eQTL	gene	200	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	naive	27768888	Quach_2016	MONOCYTE_NAIVE
+eQTL_Catalogue	Quach_2016_ge_monocyte_Pam3CSK4	cis-eQTL	gene	196	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	Pam3CSK4_6h	27768888	Quach_2016	MONOCYTE_PAM3CSK4
+eQTL_Catalogue	Quach_2016_ge_monocyte_R848	cis-eQTL	gene	191	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	R848_6h	27768888	Quach_2016	MONOCYTE_R848
+eQTL_Catalogue	ROSMAP_ge_brain_naive	cis-eQTL	gene	560	tissue	EUR	bulk-RNASeq	UBERON_0009834	brain (DLPFC)	brain	heterogeneous	neural	naive	28869584	ROSMAP	BRAIN_NAIVE
+eQTL_Catalogue	Schmiedel_2018_ge_B-cell_naive	cis-eQTL	gene	91	cell	EUR	bulk-RNASeq	CL_0000236	B cell	blood	B-cell	immune	naive	30449622	Schmiedel_2018	B-CELL_NAIVE
+eQTL_Catalogue	Schmiedel_2018_ge_CD4_T-cell_anti-CD3-CD28	cis-eQTL	gene	89	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	T-cell	immune	anti-CD3-CD28_4h	30449622	Schmiedel_2018	CD4_T-CELL_ANTI-CD3-CD28
+eQTL_Catalogue	Schmiedel_2018_ge_CD4_T-cell_naive	cis-eQTL	gene	88	cell	EUR	bulk-RNASeq	CL_0000624	CD4+ T cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	CD4_T-CELL_NAIVE
+eQTL_Catalogue	Schmiedel_2018_ge_CD8_T-cell_anti-CD3-CD28	cis-eQTL	gene	88	cell	EUR	bulk-RNASeq	CL_0000625	CD8+ T cell	blood	T-cell	immune	anti-CD3-CD28_4h	30449622	Schmiedel_2018	CD8_T-CELL_ANTI-CD3-CD28
+eQTL_Catalogue	Schmiedel_2018_ge_CD8_T-cell_naive	cis-eQTL	gene	89	cell	EUR	bulk-RNASeq	CL_0000625	CD8+ T cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	CD8_T-CELL_NAIVE
+eQTL_Catalogue	Schmiedel_2018_ge_monocyte_CD16_naive	cis-eQTL	gene	90	cell	EUR	bulk-RNASeq	CL_0002396	CD16+ monocyte	blood	monocyte	immune	naive	30449622	Schmiedel_2018	MONOCYTE_CD16_NAIVE
+eQTL_Catalogue	Schmiedel_2018_ge_monocyte_naive	cis-eQTL	gene	91	cell	EUR	bulk-RNASeq	CL_0002057	monocyte	blood	monocyte	immune	naive	30449622	Schmiedel_2018	MONOCYTE_NAIVE
+eQTL_Catalogue	Schmiedel_2018_ge_NK-cell_naive	cis-eQTL	gene	90	cell	EUR	bulk-RNASeq	CL_0000623	NK	blood	NK	immune	naive	30449622	Schmiedel_2018	NK-CELL_NAIVE
+eQTL_Catalogue	Schmiedel_2018_ge_Tfh_memory	cis-eQTL	gene	89	cell	EUR	bulk-RNASeq	CL_0002038	Tfh cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	TFH_MEMORY
+eQTL_Catalogue	Schmiedel_2018_ge_Th1-17_memory	cis-eQTL	gene	82	cell	EUR	bulk-RNASeq	CL_0000545	Th1 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	TH1_MEMORY
+eQTL_Catalogue	Schmiedel_2018_ge_Th17_memory	cis-eQTL	gene	88	cell	EUR	bulk-RNASeq	CL_0000899	Th17 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	TH1-17_MEMORY
+eQTL_Catalogue	Schmiedel_2018_ge_Th1_memory	cis-eQTL	gene	89	cell	EUR	bulk-RNASeq	CL_0000899	Th17 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	TH17_MEMORY
+eQTL_Catalogue	Schmiedel_2018_ge_Th2_memory	cis-eQTL	gene	89	cell	EUR	bulk-RNASeq	CL_0000546	Th2 cell	blood	T-cell	immune	naive	30449622	Schmiedel_2018	TH2_MEMORY
+eQTL_Catalogue	Schmiedel_2018_ge_Treg_memory	cis-eQTL	gene	89	cell	EUR	bulk-RNASeq	CL_0002678	Treg naive	blood	T-cell	immune	naive	30449622	Schmiedel_2018	TREG_MEMORY
+eQTL_Catalogue	Schmiedel_2018_ge_Treg_naive	cis-eQTL	gene	89	cell	EUR	bulk-RNASeq	CL_0002677	Treg memory	blood	T-cell	immune	naive	30449622	Schmiedel_2018	TREG_NAIVE
+eQTL_Catalogue	Schwartzentruber_2018_ge_sensory_neuron	cis-eQTL	gene	98	cell	EUR	bulk-RNASeq	CL_0000101	sensory neuron	brain	neuron	neural	naive	29229984	Schwartzentruber_2018	SENSORY_NEURON
+eQTL_Catalogue	Steinberg_2020_ge_high_grade_cartilage_naive	cis-eQTL	gene	69	tissue	EUR	bulk-RNASeq	UBERON_0002418	cartilage	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	SYNOVIUM_NAIVE
+eQTL_Catalogue	Steinberg_2020_ge_low_grade_cartilage_naive	cis-eQTL	gene	69	tissue	EUR	bulk-RNASeq	UBERON_0002418	cartilage	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	LOW_GRADE_CARTILAGE_NAIVE
+eQTL_Catalogue	Steinberg_2020_ge_synovium_naive	cis-eQTL	gene	72	tissue	EUR	bulk-RNASeq	UBERON_0007616	synovium	bone	heterogeneous	connective	naive	33637762	Steinberg_2020	HIGH_GRADE_CARTILAGE_NAIVE
+eQTL_Catalogue	TwinsUK_ge_blood	cis-eQTL	gene	195	tissue	EUR	bulk-RNASeq	UBERON_0000178	PBMC	blood	heterogeneous	immune	naive	25436857	TwinsUK	BLOOD
+eQTL_Catalogue	TwinsUK_ge_fat	cis-eQTL	gene	381	tissue	EUR	bulk-RNASeq	UBERON_0001013	adipose	adipose	heterogeneous	connective	naive	25436857	TwinsUK	FAT
+eQTL_Catalogue	TwinsUK_ge_LCL	cis-eQTL	gene	418	cell	EUR	bulk-RNASeq	EFO_0005292	LCL	blood	LCL	immune	naive	25436857	TwinsUK	LCL
+eQTL_Catalogue	TwinsUK_ge_skin	cis-eQTL	gene	370	tissue	EUR	bulk-RNASeq	UBERON_0002097	skin	skin	heterogeneous	epithelial	naive	25436857	TwinsUK	SKIN
+eQTL_Catalogue	van_de_Bunt_2015_ge_pancreatic_islet	cis-eQTL	gene	117	tissue	EUR	bulk-RNASeq	UBERON_0000006	pancreatic islet	pancreas	heterogeneous	epithelial	naive	26624892	van_de_Bunt_2015	PANCREATIC_ISLET
+eQTL_Catalogue	Young_2019_ge_microglia_naive	cis-eQTL	gene	104	cell	EUR	bulk-RNASeq	CL_0000129	microglia	brain	microglia	immune	naive	34083789	Young_2019	MICROGLIA_NAIVE
+eQTL_Catalogue	CEDAR_B-cell_CD19	cis-eQTL	gene	262	cell	EUR	gene_exp_microarray	CL_0000236	B cell	blood	B-cell	immune	naive	29930244	CEDAR	B-CELL_CD19
+eQTL_Catalogue	CEDAR_ileum	cis-eQTL	gene	180	tissue	EUR	gene_exp_microarray	UBERON_0002116	ileum	intestine	heterogeneous	epithelial	naive	29930244	CEDAR	ILEUM
+eQTL_Catalogue	CEDAR_monocyte_CD14	cis-eQTL	gene	286	cell	EUR	gene_exp_microarray	CL_0002057	monocyte	blood	monocyte	immune	naive	29930244	CEDAR	MONOCYTE_CD14
+eQTL_Catalogue	CEDAR_neutrophil_CD15	cis-eQTL	gene	280	cell	EUR	gene_exp_microarray	CL_0000775	neutrophil	blood	neutrophil	immune	naive	29930244	CEDAR	NEUTROPHIL_CD15
+eQTL_Catalogue	CEDAR_platelet	cis-eQTL	gene	205	cell	EUR	gene_exp_microarray	CL_0000233	platelet	blood	platelet	immune	naive	29930244	CEDAR	PLATELET
+eQTL_Catalogue	CEDAR_rectum	cis-eQTL	gene	271	tissue	EUR	gene_exp_microarray	UBERON_0001052	rectum	intestine	heterogeneous	epithelial	naive	29930244	CEDAR	RECTUM
+eQTL_Catalogue	CEDAR_T-cell_CD4	cis-eQTL	gene	290	cell	EUR	gene_exp_microarray	CL_0000624	CD4+ T cell	blood	T-cell	immune	naive	29930244	CEDAR	T-CELL_CD4
+eQTL_Catalogue	CEDAR_T-cell_CD8	cis-eQTL	gene	277	cell	EUR	gene_exp_microarray	CL_0000625	CD8+ T cell	blood	T-cell	immune	naive	29930244	CEDAR	T-CELL_CD8
+eQTL_Catalogue	CEDAR_transverse_colon	cis-eQTL	gene	286	tissue	EUR	gene_exp_microarray	UBERON_0001157	transverse colon	colon	heterogeneous	epithelial	naive	29930244	CEDAR	TRANSVERSE_COLON
+eQTL_Catalogue	Fairfax_2012_B-cell_CD19	cis-eQTL	gene	281	cell	EUR	gene_exp_microarray	CL_0000236	B cell	blood	B-cell	immune	naive	22446964	Fairfax_2012	B-CELL_CD19
+eQTL_Catalogue	Fairfax_2014_monocyte_IFN24	cis-eQTL	gene	370	cell	EUR	gene_exp_microarray	CL_0002057	monocyte	blood	monocyte	immune	IFNg_24h	24604202	Fairfax_2014	MONOCYTE_IFN24
+eQTL_Catalogue	Fairfax_2014_monocyte_LPS2	cis-eQTL	gene	256	cell	EUR	gene_exp_microarray	CL_0002057	monocyte	blood	monocyte	immune	LPS_2h	24604202	Fairfax_2014	MONOCYTE_LPS2
+eQTL_Catalogue	Fairfax_2014_monocyte_LPS24	cis-eQTL	gene	325	cell	EUR	gene_exp_microarray	CL_0002057	monocyte	blood	monocyte	immune	LPS_24h	24604202	Fairfax_2014	MONOCYTE_LPS24
+eQTL_Catalogue	Fairfax_2014_monocyte_naive	cis-eQTL	gene	420	cell	EUR	gene_exp_microarray	CL_0002057	monocyte	blood	monocyte	immune	naive	24604202	Fairfax_2014	MONOCYTE_NAIVE
+eQTL_Catalogue	Gilchrist_2021_NK-cell_naive	cis-eQTL	gene	247	cell	EUR	gene_exp_microarray	CL_0000623	NK	blood	NK	immune	naive	https://doi.org/10.1038/s41467-022-31626-4	?	?
+eQTL_Catalogue	Kasela_2017_T-cell_CD4	cis-eQTL	gene	280	cell	EUR	gene_exp_microarray	CL_0000624	CD4+ T cell	blood	T-cell	immune	naive	28248954	Kasela_2017	T-CELL_CD4
+eQTL_Catalogue	Kasela_2017_T-cell_CD8	cis-eQTL	gene	269	cell	EUR	gene_exp_microarray	CL_0000625	CD8+ T cell	blood	T-cell	immune	naive	28248954	Kasela_2017	T-CELL_CD8
+eQTL_Catalogue	Naranbhai_2015_neutrophil_CD16	cis-eQTL	gene	93	cell	EUR	gene_exp_microarray	CL_0000775	neutrophil	blood	neutrophil	immune	naive	26151758	Naranbhai_2015	NEUTROPHIL_CD16
+FinnGen_2023_08_08	FinnGen_2023_Olink	cis-pQTL	NGS|qPCR	1225	tissue	EUR	O-link	UBERON_0001969	plasma	blood	heterogeneous	immune	naive	Unpublished	NA	NA
+FinnGen_2023_08_08	FinnGen_2023_SomaScan	cis-pQTL	aptamer	865	tissue	EUR	SomaScan	UBERON_0001969	plasma	blood	heterogeneous	immune	naive	Unpublished	NA	NA
