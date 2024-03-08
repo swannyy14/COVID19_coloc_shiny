@@ -4,4 +4,8 @@ Since the beginning of 2020, SARS-CoV-2 infection and its disease, COVID-19, hav
 
 We explored 91 GWAS hits (P<5e-7), 28% of which were identified in a single ancestry. We analyzed a comprehensive set of >300 cis QTL maps from ~100 biotype sources for colocalization, including disease-relevant biotypes and contexts; blood of COVID-19 patients, large airway epithelium, and lung cell contexts. Across all GWASs, QTL maps and molecular phenotypes, we identified thousands of colocalizations (PP4>0.75) involving >100 genes. 
 
-This repository hosts a R shiny app to interact with the results of the colocalization analysis. 
+This repository hosts a R shiny app to interact with the results of the colocalization analysis.
+
+## Authorship
+
+This application was developed by #John Lee#, in collaboration with, and with contributions of, Meritxell Oliva (colocalization analysis), Reza Hammond (locuszoom plots generation) and Jack Degner (summary statistics display)
