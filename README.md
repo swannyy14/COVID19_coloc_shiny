@@ -8,4 +8,4 @@ This repository hosts a R shiny app to interact with the results of the colocali
 
 ## Authorship
 
-This application was developed by #John Lee#, in collaboration with, and with contributions of, Meritxell Oliva (colocalization analysis), Reza Hammond (locuszoom plots generation) and Jack Degner (summary statistics display)
+This application was developed by **John Lee**, in collaboration with, and with contributions of, Meritxell Oliva (colocalization analysis), Reza Hammond (locuszoom plots generation) and Jack Degner (summary statistics display)
