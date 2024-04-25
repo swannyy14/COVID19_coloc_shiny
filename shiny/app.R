@@ -4,35 +4,33 @@ library(heatmaply)
 library(plotly)
 library(DT)
 library(shinyWidgets)
+library(bslib)
 
 # additional UI script saved in R/ui_elements.R
-ui <- fluidPage(
+ui <- page_fluid(
   titlePanel(
-    title = "COVID-19 Coloc Results Explorer"
+    title = h1("COVID-19 Coloc Results Explorer")
   ),
-  sidebarLayout(
-    sidebarPanel(
+  layout_sidebar(
+    sidebar = sidebar(
       top_control_ui,
-      hr(style = "border-top: 1px solid #000000;"),
-      conditionalPanel(
-        "input.query_select == 'Gene'",
-        gene_summary_ui
-      ),
-      conditionalPanel(
-        "input.query_select == 'Clump'",
-        clump_summary_ui
-      ),
-      width = 3
+      # hr(style = "border-top: 1px solid #000000;"),
+      # conditionalPanel(
+      #   "input.query_select == 'Gene'",
+      #   gene_summary_ui
+      # ),
+      # conditionalPanel(
+      #   "input.query_select == 'Clump'",
+      #   clump_summary_ui
+      # )
     ),
-    mainPanel(
-      conditionalPanel(
-        "input.query_select == 'Gene'",
-        gene_summary_main
-      ),
-      conditionalPanel(
-        "input.query_select == 'Clump'",
-        clump_summary_main
-      )
+    conditionalPanel(
+      "input.query_select == 'Gene'",
+      gene_summary_main
+    ),
+    conditionalPanel(
+      "input.query_select == 'Clump'",
+      clump_summary_main
     )
   )
 )

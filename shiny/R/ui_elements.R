@@ -1,5 +1,36 @@
 library(plotly)
 library(DT)
+
+tab <- function(...) {
+  shiny::tabPanel(..., class = "p-2 border border-top-0 rounded-bottom")
+}
+
+# UI for gene level summary
+gene_summary_ui <- tagList(
+  radioButtons(
+    "gene_summary_level",
+    "Search by Gene or Molecular Phenotype:",
+    choices = c(
+      "Gene" = "Gene",
+      "Molecular Phenotype" = "MP"
+    ), inline = FALSE
+  ),
+  selectInput(
+    "gene_select",
+    NULL,
+    choices = NULL
+  )
+)
+
+# UI for clump level summary
+clump_summary_ui <- tagList(
+  selectInput(
+    "clump_select",
+    "Select Clump:",
+    choices = NULL
+  )
+)
+
 # ui for top control panel
 top_control_ui <- tagList(
   selectInput(
@@ -9,6 +40,14 @@ top_control_ui <- tagList(
       "Gene" = "Gene",
       "Clump" = "Clump"
     )
+  ),
+  conditionalPanel(
+    "input.query_select == 'Gene'",
+    gene_summary_ui
+  ),
+  conditionalPanel(
+    "input.query_select == 'Clump'",
+    clump_summary_ui
   ),
   radioButtons(
     "qtl_type_select",
@@ -37,67 +76,59 @@ top_control_ui <- tagList(
   )
 )
 
-# UI for gene level summary
-gene_summary_ui <- tagList(
-  radioButtons(
-    "gene_summary_level",
-    "Search by Gene or Molecular Phenotype:",
-    choices = c(
-      "Gene" = "Gene",
-      "Molecular Phenotype" = "MP"
-    ), inline = FALSE
-  ),
-  selectInput(
-    "gene_select",
-    NULL,
-    choices = NULL
-  )
-)
-
 gene_summary_main <- tagList(
   tabsetPanel(
-    tabPanel(
+    tab(
       "Gene-level",
-      plotlyOutput("plot_signif_map", height = 600)
+      card(
+        plotlyOutput("plot_signif_map", height = 600)
+      )
     ),
-    tabPanel(
+    tab(
       "Clump-level",
-      plotlyOutput("plot_gene_eqtl_heatmap")
+      card(
+        plotlyOutput("plot_gene_eqtl_heatmap")
+      )
     ),
-    tabPanel(
+    tab(
       "Locus Zoom",
       br(),
-      dataTableOutput("table_gene_eqtl_heatmap"),
+      card(
+        div(
+          dataTableOutput("table_gene_eqtl_heatmap")
+        )
+      ),
       hr(),
-      column(6,
-        imageOutput("LocusZoomPlotGene")
+      card(
+        card_header("Locus Zoom Plot"),
+        imageOutput("LocusZoomPlotGene"),
+        height = 1000
       )
     )
   )
 )
 
-# UI for clump level summary
-clump_summary_ui <- tagList(
-  selectInput(
-    "clump_select",
-    "Select Clump:",
-    choices = NULL
-  )
-)
-
 clump_summary_main <- tagList(
   tabsetPanel(
-    tabPanel(
+    tab(
       "Clump-level",
-      plotlyOutput("plot_clump_eqtl_heatmap")
+      card(
+        plotlyOutput("plot_clump_eqtl_heatmap")
+      )
     ),
-    tabPanel(
+    tab(
       "Locus Zoom",
       br(),
-      dataTableOutput("table_clump_eqtl_heatmap"),
+      card(
+        div(
+          dataTableOutput("table_clump_eqtl_heatmap")
+        )
+      ),
       hr(),
-      column(6,
-        imageOutput("LocusZoomPlotClump") 
+      card(
+        card_header("Locus Zoom Plot"),
+        imageOutput("LocusZoomPlotClump"),
+        height = 1000
       )
     )
   )
