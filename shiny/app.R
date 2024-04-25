@@ -3,20 +3,37 @@ library(tidyverse)
 library(heatmaply)
 library(plotly)
 library(DT)
+library(shinyWidgets)
 
 # additional UI script saved in R/ui_elements.R
 ui <- fluidPage(
   titlePanel(
     title = "COVID-19 Coloc Results Explorer"
   ),
-  top_control_ui,
-  conditionalPanel(
-    "input.query_select == 'Gene'",
-    gene_summary_ui
-  ),
-  conditionalPanel(
-    "input.query_select == 'Clump'",
-    clump_summary_ui
+  sidebarLayout(
+    sidebarPanel(
+      top_control_ui,
+      hr(style = "border-top: 1px solid #000000;"),
+      conditionalPanel(
+        "input.query_select == 'Gene'",
+        gene_summary_ui
+      ),
+      conditionalPanel(
+        "input.query_select == 'Clump'",
+        clump_summary_ui
+      ),
+      width = 3
+    ),
+    mainPanel(
+      conditionalPanel(
+        "input.query_select == 'Gene'",
+        gene_summary_main
+      ),
+      conditionalPanel(
+        "input.query_select == 'Clump'",
+        clump_summary_main
+      )
+    )
   )
 )
 
@@ -87,7 +104,7 @@ server <- function(input, output, session) {
   # plot heatmap of posterior probabilities for Gene vs QTL Map for specifed clump
   output$plot_gene_eqtl_heatmap <- renderPlotly({
     validate(need(myclumps(), label = "Clump"))
-    plot_heatmaply_for_clump(coloc_summary_server(), myclumps(), clumps_df, gene_pos_df, input$height_scale_gene, choose_max_pp4_per_gene = input$max_pp4_gene)
+    plot_heatmaply_for_clump(coloc_summary_server(), myclumps(), clumps_df, gene_pos_df, input$height_scale, choose_max_pp4_per_gene = input$max_pp4)
   })
   
   # Print QTL summary stats table
@@ -98,7 +115,7 @@ server <- function(input, output, session) {
     if(input$qtl_type_select != "All") printtable <- printtable[printtable$QTL_type == input$qtl_type_select,]
     printtable <- printtable[printtable$PP4 >= input$pp4_min,]
     printtable
-      }, selection='single')
+  }, selection='single')
   
   output$table_clump_eqtl_heatmap <- renderDataTable({
     validate(need(myclumps(), label = "Clump"))
@@ -108,7 +125,9 @@ server <- function(input, output, session) {
     printtable
   }, selection='single')
   
+  # Plot locus zoom plots
   output$LocusZoomPlotGene <- renderImage({
+    req(length(input$table_gene_eqtl_heatmap_rows_selected) > 0)
     validate(need(mygene(), label = "Gene"))
     if(gene_summary_level() == 'Gene') printtable <- unique(coloc_summary[coloc_summary$Gene == mygene(),])
     if(gene_summary_level() == 'MP') printtable <- unique(coloc_summary[coloc_summary$MP == mygene(),])
@@ -120,6 +139,7 @@ server <- function(input, output, session) {
       }, deleteFile = F)
 
   output$LocusZoomPlotClump <- renderImage({
+    req(length(input$table_clump_eqtl_heatmap_rows_selected) > 0)
     validate(need(myclumps(), label = "Clump"))
     printtable <- unique(coloc_summary[coloc_summary$GWAS_clump == myclumps(),])
     if(input$qtl_type_select != "All") printtable <- printtable[printtable$QTL_type == input$qtl_type_select,]
@@ -127,12 +147,12 @@ server <- function(input, output, session) {
     path <- paste0(printtable[input$table_clump_eqtl_heatmap_rows_selected,'LZplot'])
     print(path)
     list(src=path, width = 500)
-  }, deleteFile = F)  
+  }, deleteFile = F)
   
   # plot heatmap of posterior prbability for genes in a clump
   output$plot_clump_eqtl_heatmap <- renderPlotly({
     validate(need(myclumps(), label = "Clump"))
-    plot_heatmaply_for_clump(coloc_summary_server(), myclumps(), clumps_df, gene_pos_df, input$height_scale_clump, choose_max_pp4_per_gene = input$max_pp4_clump)
+    plot_heatmaply_for_clump(coloc_summary_server(), myclumps(), clumps_df, gene_pos_df, input$height_scale, choose_max_pp4_per_gene = input$max_pp4)
   })
 }
 
