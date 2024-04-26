@@ -1,5 +1,6 @@
 library(plotly)
 library(DT)
+library(bslib)
 
 tab <- function(...) {
   shiny::tabPanel(..., class = "p-2 border border-top-0 rounded-bottom")
