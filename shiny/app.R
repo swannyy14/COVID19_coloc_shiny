@@ -8,6 +8,8 @@ library(bslib)
 
 # additional UI script saved in R/ui_elements.R
 ui <- page_navbar(
+  bg = "#373a3c",
+  theme = bs_theme(preset = "cosmo"),
   title = "COVID-19 Coloc Results Explorer",
   nav_panel(
     title = "Explore",
@@ -50,6 +52,7 @@ ui <- page_navbar(
   
 
 server <- function(input, output, session) {
+  # bs_themer()
   # subset coloc summary data frames by QTL type and PP4
   coloc_summary_server <- reactive({
     if (input$qtl_type_select != "All") {
