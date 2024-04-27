@@ -7,24 +7,47 @@ library(shinyWidgets)
 library(bslib)
 
 # additional UI script saved in R/ui_elements.R
-ui <- page_fixed(
-  titlePanel(
-    title = h1("COVID-19 Coloc Results Explorer")
+ui <- page_navbar(
+  title = "COVID-19 Coloc Results Explorer",
+  nav_panel(
+    title = "Explore",
+    page_fixed(
+      layout_sidebar(
+        sidebar = sidebar(
+          title = h2("Controls"),
+          top_control_ui,
+        ),
+        conditionalPanel(
+          "input.query_select == 'Gene'",
+          gene_summary_main
+        ),
+        conditionalPanel(
+          "input.query_select == 'Clump'",
+          clump_summary_main
+        )
+      )
+    )
   ),
-  layout_sidebar(
-    sidebar = sidebar(
-      top_control_ui,
-    ),
-    conditionalPanel(
-      "input.query_select == 'Gene'",
-      gene_summary_main
-    ),
-    conditionalPanel(
-      "input.query_select == 'Clump'",
-      clump_summary_main
+  nav_panel(
+    title = "About",
+    page_fixed(
+      card(
+        card_title("About"),
+        card_body(
+          "This app is designed to explore the results of colocalization
+          analysis of COVID-19 GWAS and eQTL data. The app allows users
+          to explore the colocalization results by gene or by clump.
+          The app also provides a heatmap of posterior probabilities
+          for each gene in a clump and a heatmap of posterior probabilities
+          for each gene in a clump. The app also provides a table of summary
+          statistics for each gene in a clump and a table of summary statistics
+          for each gene in a clump."
+        )
+      )
     )
   )
 )
+  
 
 server <- function(input, output, session) {
   # subset coloc summary data frames by QTL type and PP4

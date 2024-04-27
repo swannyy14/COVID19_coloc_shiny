@@ -12,7 +12,7 @@ tab <- function(...) {
 gene_summary_ui <- tagList(
   radioButtons(
     "gene_summary_level",
-    "Search by Gene or Molecular Phenotype:",
+    strong("Search by Gene / Molecular Phenotype:"),
     choices = c(
       "Gene" = "Gene",
       "Molecular Phenotype" = "MP"
@@ -29,20 +29,21 @@ gene_summary_ui <- tagList(
 clump_summary_ui <- tagList(
   selectInput(
     "clump_select",
-    "Select Clump:",
+    strong("Select Clump:"),
     choices = NULL
   )
 )
 
 # ui for top control panel
 top_control_ui <- tagList(
-  selectInput(
+  radioButtons(
     "query_select",
-    "Summary Level:",
+    strong("Summary Level:"),
     choices = c(
       "Gene" = "Gene",
       "Clump" = "Clump"
-    )
+    ),
+    inline=TRUE
   ),
   conditionalPanel(
     "input.query_select == 'Gene'",
@@ -54,7 +55,7 @@ top_control_ui <- tagList(
   ),
   radioButtons(
     "qtl_type_select",
-    "QTL Type:",
+    strong("QTL Type:"),
     choices = c(
       "All", "eQTL", "mQTL", "pQTL", "sQTL"
     ),
@@ -64,19 +65,9 @@ top_control_ui <- tagList(
   ),
   sliderInput(
     "pp4_min",
-    "PP4 Minimum Threshold:",
+    strong("PP4 Minimum Threshold:"),
     min = 0, max = 1, value = 0.75
-  )#,
-  # sliderInput(
-  #   "height_scale",
-  #   "Heatmap Height scale:",
-  #   min = 0.9, max = 2, value = 1
-  # ),
-  # checkboxInput(
-  #   "max_pp4",
-  #   "Heatmap - Display only Max PP4 Per Gene-QTL Map",
-  #   value = FALSE
-  # )
+  )
 )
 
 gene_summary_main <- tagList(
