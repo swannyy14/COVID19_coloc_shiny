@@ -1,6 +1,8 @@
 library(plotly)
 library(DT)
 library(bslib)
+library(bsicons)
+library(shinyWidgets)
 
 tab <- function(...) {
   shiny::tabPanel(..., class = "p-2 border border-top-0 rounded-bottom")
@@ -64,17 +66,17 @@ top_control_ui <- tagList(
     "pp4_min",
     "PP4 Minimum Threshold:",
     min = 0, max = 1, value = 0.75
-  ),
-  sliderInput(
-    "height_scale",
-    "Heatmap Height scale:",
-    min = 0.9, max = 2, value = 1
-  ),
-  checkboxInput(
-    "max_pp4",
-    "Heatmap - Display only Max PP4 Per Gene-QTL Map",
-    value = FALSE
-  )
+  )#,
+  # sliderInput(
+  #   "height_scale",
+  #   "Heatmap Height scale:",
+  #   min = 0.9, max = 2, value = 1
+  # ),
+  # checkboxInput(
+  #   "max_pp4",
+  #   "Heatmap - Display only Max PP4 Per Gene-QTL Map",
+  #   value = FALSE
+  # )
 )
 
 gene_summary_main <- tagList(
@@ -87,8 +89,28 @@ gene_summary_main <- tagList(
     ),
     tab(
       "Clump-level",
-      card(
-        plotlyOutput("plot_gene_eqtl_heatmap")
+      layout_columns(
+        dropdownButton(
+          sliderInput(
+            "height_scale_gene_summ",
+            "Heatmap Height scale:",
+            min = 0.9, max = 2, value = 1
+          ),
+          checkboxInput(
+            "max_pp4_gene_summ",
+            "Heatmap - Display only Max PP4 Per Gene-QTL Map",
+            value = FALSE
+          ),
+          circle = FALSE,
+          status = "info",
+          size = "sm",
+          icon = bs_icon("gear-fill")
+        ),
+        card(
+          plotlyOutput("plot_gene_eqtl_heatmap"),
+          full_screen = TRUE
+        ), 
+        col_widths = c(1,-11,12)
       )
     ),
     tab(
@@ -113,8 +135,28 @@ clump_summary_main <- tagList(
   tabsetPanel(
     tab(
       "Clump-level",
-      card(
-        plotlyOutput("plot_clump_eqtl_heatmap")
+      layout_columns(
+        dropdownButton(
+          sliderInput(
+            "height_scale_clump_summ",
+            "Heatmap Height scale:",
+            min = 0.9, max = 2, value = 1
+          ),
+          checkboxInput(
+            "max_pp4_clump_summ",
+            "Heatmap - Display only Max PP4 Per Gene-QTL Map",
+            value = FALSE
+          ),
+          circle = FALSE,
+          status = "info",
+          size = "sm",
+          icon = bs_icon("gear-fill")
+        ),
+        card(
+          plotlyOutput("plot_clump_eqtl_heatmap"),
+          full_screen = TRUE
+        ), 
+        col_widths = c(1,-11,12)
       )
     ),
     tab(

@@ -7,22 +7,13 @@ library(shinyWidgets)
 library(bslib)
 
 # additional UI script saved in R/ui_elements.R
-ui <- page_fluid(
+ui <- page_fixed(
   titlePanel(
     title = h1("COVID-19 Coloc Results Explorer")
   ),
   layout_sidebar(
     sidebar = sidebar(
       top_control_ui,
-      # hr(style = "border-top: 1px solid #000000;"),
-      # conditionalPanel(
-      #   "input.query_select == 'Gene'",
-      #   gene_summary_ui
-      # ),
-      # conditionalPanel(
-      #   "input.query_select == 'Clump'",
-      #   clump_summary_ui
-      # )
     ),
     conditionalPanel(
       "input.query_select == 'Gene'",
@@ -102,7 +93,27 @@ server <- function(input, output, session) {
   # plot heatmap of posterior probabilities for Gene vs QTL Map for specifed clump
   output$plot_gene_eqtl_heatmap <- renderPlotly({
     validate(need(myclumps(), label = "Clump"))
-    plot_heatmaply_for_clump(coloc_summary_server(), myclumps(), clumps_df, gene_pos_df, input$height_scale, choose_max_pp4_per_gene = input$max_pp4)
+    plot_heatmaply_for_clump(
+      coloc_summary_server(), 
+      myclumps(), 
+      clumps_df, 
+      gene_pos_df, 
+      input$height_scale_gene_summ, 
+      choose_max_pp4_per_gene = input$max_pp4_gene_summ
+    )
+  })
+  
+  # plot heatmap of posterior prbability for genes in a clump
+  output$plot_clump_eqtl_heatmap <- renderPlotly({
+    validate(need(myclumps(), label = "Clump"))
+    plot_heatmaply_for_clump(
+      coloc_summary_server(), 
+      myclumps(), 
+      clumps_df, 
+      gene_pos_df, 
+      input$height_scale_clump_summ, 
+      choose_max_pp4_per_gene = input$max_pp4_clump_summ
+    )
   })
   
   # Print QTL summary stats table
@@ -146,12 +157,6 @@ server <- function(input, output, session) {
     print(path)
     list(src=path, width = 500)
   }, deleteFile = F)
-  
-  # plot heatmap of posterior prbability for genes in a clump
-  output$plot_clump_eqtl_heatmap <- renderPlotly({
-    validate(need(myclumps(), label = "Clump"))
-    plot_heatmaply_for_clump(coloc_summary_server(), myclumps(), clumps_df, gene_pos_df, input$height_scale, choose_max_pp4_per_gene = input$max_pp4)
-  })
 }
 
 shinyApp(ui, server)
